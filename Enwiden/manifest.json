@@ -1,0 +1,14 @@
+{
+	"manifest_version": 3,
+	"name": "CoSo Enwiden",
+	"version": "0.1",
+	"description": "Changes the width of the Community firehose column",
+	"permissions": [
+		"activeTab",
+		"scripting"
+	],
+	"background": {
+		"service_worker": "background.js"
+	},
+	"action": {}
+}
