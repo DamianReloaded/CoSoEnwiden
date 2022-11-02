@@ -12,3 +12,6 @@ Installation:
         - If you click it while being on Counter Social it will switch the width of the Community firehose between 300, 650, and 900 pixels.
         
 glhf!
+
+Screenshot
+![image](https://user-images.githubusercontent.com/20878963/199550583-9b7de12e-575b-418d-ac7e-dd4593bc31da.png)
