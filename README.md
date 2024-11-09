@@ -1,5 +1,5 @@
 # CoSoEnwiden
-Widens the Community firehose column in the Counter Social website
+Widens the 'Community Firehose' column on the Counter Social website.
 
 Installation:
 - Go to the chrome menu (the three vertical dots on the top right)
