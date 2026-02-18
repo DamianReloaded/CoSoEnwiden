@@ -12,7 +12,7 @@ function reddenPage()
 
                 if (currentWidth === "900px")
                 {
-                    elements[i].style.width = "300px";
+                    elements[i].style.width = "400px";
                 }
                 else if (currentWidth === "650px")
                 {
