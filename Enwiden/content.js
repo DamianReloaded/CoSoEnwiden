@@ -93,3 +93,17 @@ chrome.action.onClicked.addListener((tab) =>
         });
     }
 });
+
+chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab)
+{
+    if (changeInfo.status === "complete" &&
+        tab.url &&
+        tab.url.includes("counter.social"))
+    {
+        chrome.scripting.executeScript(
+        {
+            target: { tabId: tabId },
+            function: reddenPage
+        });
+    }
+});

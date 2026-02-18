@@ -5,10 +5,14 @@
 	"description": "Changes the width of the Community firehose column",
 	"permissions": [
 		"activeTab",
-		"scripting"
+		"scripting",
+		"tabs"
+	],
+	"host_permissions": [
+		"https://counter.social/*"
 	],
 	"background": {
-		"service_worker": "background.js"
+		"service_worker": "content.js"
 	},
 	"action": {}
 }
