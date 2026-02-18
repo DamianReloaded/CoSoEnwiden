@@ -1,5 +1,31 @@
 function reddenPage()
 {
+	function ToggleColumnWidth()
+    {
+        var elements = document.getElementsByClassName("column");
+
+        for (var i = 0; i < elements.length; i++)
+        {
+            if (elements[i].ariaLabel === "Community firehose")
+            {
+                var currentWidth = elements[i].style.width;
+
+                if (currentWidth === "900px")
+                {
+                    elements[i].style.width = "300px";
+                }
+                else if (currentWidth === "650px")
+                {
+                    elements[i].style.width = "900px";
+                }
+                else
+                {
+                    elements[i].style.width = "650px";
+                }
+            }
+        }
+    }
+	
     function GetYoutubeId(url)
     {
         if (!url)
@@ -33,7 +59,7 @@ function reddenPage()
         var container = document.createElement("div");
         container.style.position = "relative";
         container.style.width = "100%";
-        container.style.maxWidth = "480px";
+        container.style.maxWidth = "100%";
         container.style.paddingBottom = "56.25%";
         container.style.height = "0";
         container.style.marginTop = "8px";
@@ -87,6 +113,9 @@ function reddenPage()
 
     // Initial pass
     ProcessAllLinks(document);
+	
+	// Appply Enwiden
+	ToggleColumnWidth();
 
     // Observe dynamic changes
     var observer = new MutationObserver(function(mutations)
