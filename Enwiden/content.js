@@ -96,12 +96,38 @@ function reddenPage()
         }
     }
 
+	function InitializeColumnHeaderToggle()
+	{
+		if (window.columnToggleInitialized)
+		{
+			return;
+		}
+
+		window.columnToggleInitialized = true;
+
+		var headers = document.querySelectorAll(".column-header__wrapper");
+
+		for (var i = 0; i < headers.length; i++)
+		{
+			var button = headers[i].querySelector("h1.column-header > button");
+
+			if (button && button.textContent.includes("Community firehose"))
+			{
+				button.addEventListener("click", function()
+				{
+					ToggleColumnWidth();
+				});
+			}
+		}
+	}
+
+
     // Initial pass
     ProcessAllLinks(document);
 	
 	// Appply Enwiden
-	ToggleColumnWidth();
-
+	InitializeColumnHeaderToggle();
+	
     // Observe dynamic changes
     var observer = new MutationObserver(function(mutations)
     {
