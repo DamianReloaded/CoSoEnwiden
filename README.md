@@ -10,8 +10,8 @@ Installation:
 - Click the button "Load unpacked" on the top left
 - Go to the folder Enwiden (enter it) and click the button "Select folder"
 - You will note an icon like a puzzle piece on the top right. 
-    -  That opens a menu with the icon "CoSo Enwiden". 
-        - If you click it while being on Counter Social it will switch the width of the Community firehose between 400, 650, and 900 pixels.
+- Once the plugin is loaded it will load the youtube embedded player for every youtube link.
+- Clicking the Firehose header will toggle the Firehose column width between 3 sizes.
         
 glhf!
 
