@@ -9,8 +9,8 @@ Installation:
 - On the top right enable "Developer mode"
 - Click the button "Load unpacked" on the top left
 - Go to the folder Enwiden (enter it) and click the button "Select folder"
-- You will note an icon like a puzzle piece on the top right. 
-- Once the plugin is loaded it will load the youtube embedded player for every youtube link.
+- You will note an icon like a puzzle piece on the top right of your browser now. 
+- Once the plugin is loaded it will show the youtube embedded player instead of youtube links.
 - Clicking the Firehose header will toggle the Firehose column width between 3 sizes.
         
 glhf!
