@@ -1,7 +1,7 @@
 # CoSoEnwiden
 Widens the 'Community Firehose' column on the Counter Social website.
 
-Also replaces youtube url links with thumbnails
+Also replaces youtube url links with the embedded youtube player
 
 Installation:
 - Go to the chrome menu (the three vertical dots on the top right)
